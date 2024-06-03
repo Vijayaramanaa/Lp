@@ -1,6 +1,13 @@
 # React + Vite
+this Landing page is created using React.js library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To run the  Website first we need to clone my repo and change to the correct directory that is lp 
+the type the following comments in terminal
+1.) npm install
+2.) npm dev run
+you can see the webpage is running in the localhost
+as of now the Landing page is responsive for Desktop width ranges from 1000px and unfortunately Time being the project will continued shortly 
+his template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
