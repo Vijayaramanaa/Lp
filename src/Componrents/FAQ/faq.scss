@@ -1,0 +1,38 @@
+.faqcont{
+    display: flex;
+    max-width: 1000px;
+    flex-direction: column;
+    margin: auto;
+
+    .heading{
+        h2{
+            color: rgba(255, 85, 85, 1);
+            margin-bottom: -20px;
+        }
+        h1{
+            color: black;
+            font-weight: 700px;
+            font-size:48px ;
+            line-height: 40px;
+        }
+    }
+    .mainpart{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        .divider{
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+            justify-content: center;
+            gap: 20px;
+
+            h1{
+                font-size: 28px;
+                font-weight: 700px;
+                line-height: 25px;
+            }
+        }
+    }
+
+}

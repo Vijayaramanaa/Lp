@@ -1,0 +1,249 @@
+section{
+    height: 100vh;
+
+}
+
+.SoneContainer{
+    display: flex;
+    max-width: 1020px;
+    margin: auto;
+    flex-direction: row;
+    margin-top: 60px;
+
+    .Ls{
+        flex: 1;
+        width: 100vw;
+        position: relative;
+
+        .ph1{
+            transform: rotate(15deg);
+            width: 250px;
+            height: 400px;
+            position: absolute;
+            top: 120px;
+            left: 150px;
+
+
+        }
+        .gradi{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            top: 90px;
+            left: 90px;
+            z-index: -1;
+            filter: blur(30px);
+            opacity: 90%;
+            background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(246,139,31,1) 0%, rgba(246,103,103,1) 90.1% );
+        }
+        .spring{
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            z-index: -1;
+            top: 90px;
+            left: 0;
+        }
+    }
+    .Rs{
+        flex: 1;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+
+        .Rhead{
+                line-height: 16px;
+                h2{
+                    color: rgba(255, 85, 85, 1);
+                    font-weight: 500px;
+                    font-size: 18px;
+                    font-family: sans-serif;
+                    
+                }
+                h1{
+                    color:  rgba(0, 0, 0, 1);
+                    font-weight: 800px;
+                    font-size: 48px;
+                    font-family: sans-serif;
+                }
+            
+        }
+        .cont{
+            img{
+                width: 24px;
+                height: 24px;
+            }
+            .divid{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                h1{
+                    font-size: 18px;
+                    font-weight: 600px;
+                }
+            }
+            p{
+                color: black;
+                opacity: 50%;
+                font-size: 18px;
+                font-weight: 500px;
+
+            }
+        }
+        .gradu{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            right: 50px;
+            z-index: -1;
+            filter: blur(30px);
+            opacity: 90%;
+            background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(246,139,31,1) 0%, rgba(246,103,103,1) 90.1% );
+        }
+    }
+}
+.STwoContainer{
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    margin:auto;
+
+    .Rs{
+        flex: 1;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+
+        .Rhead{
+                line-height: 16px;
+                h2{
+                    color: rgba(255, 85, 85, 1);
+                    font-weight: 500px;
+                    font-size: 18px;
+                    font-family: sans-serif;
+                    
+                }
+                h1{
+                    color:  rgba(0, 0, 0, 1);
+                    font-weight: 800px;
+                    font-size: 48px;
+                    font-family: sans-serif;
+                }
+            
+        }
+        .cont{
+            img{
+                width: 24px;
+                height: 24px;
+            }
+            .divid{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                h1{
+                    font-size: 18px;
+                    font-weight: 600px;
+                }
+            }
+            p{
+                color: black;
+                opacity: 50%;
+                font-size: 18px;
+                font-weight: 500px;
+
+            }
+        }
+    }
+    .Ls{
+        flex: 1;
+        width: 100vw;
+        position: relative;
+
+        .ph1{
+
+            width: 250px;
+            height: 400px;
+            position: absolute;
+            top: 220px;
+            left: 150px;
+
+
+        }
+        .gradi{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            top: 360px;
+            left: 90px;
+            z-index: -1;
+            filter: blur(30px);
+            opacity: 90%;
+            background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(246,139,31,1) 0%, rgba(246,103,103,1) 90.1% );
+        }
+        .spring{
+            width: 400px;
+            height: 500px;
+            position: absolute;
+            z-index: -1;
+            top: 150px;
+            left: 10px;
+        }
+    }
+    .Lss{
+        flex: 1;
+        width: 100vw;
+        position: relative;
+
+        .ph1{
+
+            width: 250px;
+            height: 400px;
+            transform: rotate(14deg);
+            position: absolute;
+            top: 120px;
+            left: 50px;
+
+
+        }
+        .gradi{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            top: 260px;
+            left: 90px;
+            z-index: -1;
+            filter: blur(30px);
+            opacity: 90%;
+            background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(246,139,31,1) 0%, rgba(246,103,103,1) 90.1% );
+        }
+        .spring{
+            width: 400px;
+            height: 500px;
+            position: absolute;
+            z-index: -1;
+            top: 100px;
+            left: -32px;
+        }
+    }
+
+}
+@media (max-width:600px) {
+    .SoneContainer{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        margin: auto;
+    }
+}

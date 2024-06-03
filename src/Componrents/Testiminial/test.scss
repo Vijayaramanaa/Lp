@@ -1,0 +1,74 @@
+.Testcon{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+
+    .up{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        h2{
+            font-weight: 500px;
+            font-size: 18px;
+            color: black;
+            text-align: center;
+            line-height: 2px;
+            margin-bottom: -14px;
+        }
+        h1{
+            font-weight: 700px;
+            font-size: 48px;
+            color: black;
+            text-align: center;
+            font-family: sans-serif;
+            line-height: 40px;
+        }
+    }
+    .mid{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .left{
+            flex: 1;
+            position: relative;
+            .gradu{
+                position: absolute;
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                top: 150px;
+                right: 250px;
+                z-index: -1;
+                filter: blur(30px);
+                opacity: 90%;
+                background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(246,139,31,1) 0%, rgba(246,103,103,1) 90.1% );
+            }
+            .spring{
+                width: 600px;
+                height: 600px;
+                position: absolute;
+                z-index: -1;
+                top: 0;
+                right: 100px;
+            }
+        }
+        .right{
+            h1{
+                font-weight: 600px;
+                font-size: 28px;
+                color: black;
+            }
+            p{
+                font-weight: 500px;
+                font-size: 18px;
+                color: black;
+                opacity: 50%;
+            }
+        }
+    }
+}

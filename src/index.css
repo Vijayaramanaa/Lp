@@ -1,0 +1,32 @@
+/* In your index.css or App.css */
+@import url('https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;700&display=swap');
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif,'Clash Display';
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Clash Display', sans-serif;
+}
+
+
+a{
+  color:black;
+  text-decoration: none;
+}
+a:after{
+  color: red;
+}
